@@ -1,0 +1,21 @@
+{
+  "devices": [
+    {
+      "id": "power_sensor",
+      "name": "Site A Power Sensor",
+      "ip": "10.0.0.1",
+      "type": "Power Sensor",
+      "importance": "standard",
+      "escalation_minutes": 30
+    },
+
+	{
+      "id": "site-a-fiber",
+      "name": "Site A local Fiber",
+      "ip": "10.10.10.1",
+      "type": "Local Link",
+      "importance": "critical",
+      "escalation_minutes": 15
+    }
+  ]
+}
